@@ -14,7 +14,8 @@ window.addEventListener('load', () => {
     let totalSeconds;
     
     function init() {
-        totalSeconds = Math.floor((new Date('01/01/2025') - new Date()) / 1000); 
+        const nextYear = new Date(new Date().setFullYear(new Date().getFullYear() + 1))
+        totalSeconds = Math.floor((nextYear - new Date()) / 1000); 
         setTimeLeft();
         let interval = setInterval(() => {
             if (totalSeconds < 0) {
