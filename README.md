@@ -2,6 +2,10 @@
 
 ![Design preview for the Launch countdown timer coding challenge](./design/desktop-preview.jpg)
 
+## YouTube Video walkthrough
+
+[Here](https://www.youtube.com/watch?v=t56nSwjozf0).
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
